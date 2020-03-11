@@ -17,6 +17,8 @@ services:
       - ./app:/srv/app
     depends_on:
       - db
+    networks:
+      network-inewgent:
 
   db:
     container_name: mysql
@@ -30,3 +32,9 @@ services:
       MYSQL_ROOT_PASSWORD: strapi
     volumes:
       - ./db:/var/lib/mysql
+    networks:
+      network-inewgent:
+
+networks:
+  network-inewgent:
+    external: true
