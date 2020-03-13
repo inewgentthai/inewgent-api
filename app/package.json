@@ -22,7 +22,9 @@
     "strapi-hook-bookshelf": "3.0.0-beta.17.6",
     "strapi-hook-knex": "3.0.0-beta.17.6",
     "knex": "latest",
-    "mysql": "latest"
+    "mysql": "latest",
+    "dotenv": "^6.2.0",
+    "find-config": "^1.0.0"
   },
   "author": {
     "name": "A Strapi developer"

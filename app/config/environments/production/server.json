@@ -1,9 +1,12 @@
 {
-  "host": "localhost",
+  "host": "${process.env.HOST || 'localhost'}",
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
-    "enabled": false
+    "enabled": true,
+    "host": "api.inewgent.com",
+    "port": 443,
+    "ssl": true
   },
   "cron": {
     "enabled": false
