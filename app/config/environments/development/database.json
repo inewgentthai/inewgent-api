@@ -5,11 +5,11 @@
       "connector": "strapi-hook-bookshelf",
       "settings": {
         "client": "mysql",
-        "host": "db",
+        "host": "mysql",
         "port": "3306",
-        "database": "strapi",
-        "username": "strapi",
-        "password": "strapi",
+        "database": "inewgent",
+        "username": "inewgent",
+        "password": "s72272571",
         "ssl": false
       },
       "options": {}
