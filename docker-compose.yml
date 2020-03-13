@@ -1,6 +1,6 @@
 version: '3'
-
 services:
+
   inewgent_admin:
     container_name: inewgent_admin
     image: strapi/strapi
