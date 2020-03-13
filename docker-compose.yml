@@ -1,8 +1,8 @@
 version: '3'
 services:
 
-  inewgent_admin:
-    container_name: inewgent_admin
+  inewgent_api:
+    container_name: inewgent_api
     image: strapi/strapi
     environment:
       - DATABASE_CLIENT=mysql
