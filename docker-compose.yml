@@ -7,3 +7,9 @@ services:
       - ./:/srv/app
     ports:
       - '5001:5001'
+    networks:
+      network-inewgent:
+  
+networks:
+  network-inewgent:
+    external: true
