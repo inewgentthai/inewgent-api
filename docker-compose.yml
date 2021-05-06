@@ -3,7 +3,6 @@ services:
   inewgent_api:
     container_name: inewgent_api
     image: strapi/strapi
-    image: strapi/strapi
     volumes:
       - ./:/srv/app
     ports:
